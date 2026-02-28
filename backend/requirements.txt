@@ -1,0 +1,39 @@
+# Nexus-AI Backend Dependencies
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+websockets==12.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# AI Agent Framework
+crewai>=0.70.0
+crewai-tools>=0.10.0
+
+# Scheduler
+apscheduler==3.10.4
+
+# Database
+sqlalchemy==2.0.25
+sqlite:///./data/nexus_ai.db
+
+# Vector Database (Memory)
+chromadb==0.4.22
+langchain-community==0.0.20
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Logging
+loguru==0.7.2
+colorlog==6.8.0
+
+# Date/Time
+python-dateutil==2.8.2
+
+# JSON
+orjson==3.9.15
